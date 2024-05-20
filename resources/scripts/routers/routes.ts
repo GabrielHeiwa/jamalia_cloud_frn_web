@@ -7,6 +7,7 @@ import BackupContainer from '@/components/server/backups/BackupContainer';
 import NetworkContainer from '@/components/server/network/NetworkContainer';
 import StartupContainer from '@/components/server/startup/StartupContainer';
 import FileManagerContainer from '@/components/server/files/FileManagerContainer';
+import ModpacksContainer from '@/components/server/modpacks/ModpacksContainer';
 import SettingsContainer from '@/components/server/settings/SettingsContainer';
 import AccountOverviewContainer from '@/components/dashboard/AccountOverviewContainer';
 import AccountApiContainer from '@/components/dashboard/AccountApiContainer';
@@ -33,6 +34,7 @@ interface RouteDefinition {
 
 interface ServerRouteDefinition extends RouteDefinition {
     permission: string | string[] | null;
+    eggIds?: number[];
 }
 
 interface Routes {
@@ -79,6 +81,13 @@ export default {
             permission: 'file.*',
             name: 'Files',
             component: FileManagerContainer,
+        },
+        {
+            path: '/modpacks',
+            permission: 'file.*',
+            name: 'Modpacks',
+            component: ModpacksContainer,
+            eggIds: [1, 3],
         },
         {
             path: '/files/:action(edit|new)',
