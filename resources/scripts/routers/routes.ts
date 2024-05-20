@@ -87,7 +87,7 @@ export default {
             permission: 'file.*',
             name: 'Modpacks',
             component: ModpacksContainer,
-            eggIds: [1, 3],
+            eggIds: [1, 2, 3, 4, 5],
         },
         {
             path: '/files/:action(edit|new)',
