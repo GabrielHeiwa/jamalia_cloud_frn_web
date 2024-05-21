@@ -14,14 +14,14 @@ return [
     /*
      * Use a custom secret key, we use our public one by default
      */
-    'secret_key' => env('RECAPTCHA_SECRET_KEY', '6LfMWN8pAAAAAIBbn4LE_Xg3OQ5I0-le_hd9uipx'),
-    '_shipped_secret_key' => '6LfMWN8pAAAAAIBbn4LE_Xg3OQ5I0-le_hd9uipx',
+    'secret_key' => env('RECAPTCHA_SECRET_KEY', '6Lfvz-MpAAAAABQX63_nEacL7We74dYAC0p_qxWy'),
+    '_shipped_secret_key' => '6Lfvz-MpAAAAABQX63_nEacL7We74dYAC0p_qxWy',
 
     /*
      * Use a custom website key, we use our public one by default
      */
-    'website_key' => env('RECAPTCHA_WEBSITE_KEY', '6LfMWN8pAAAAALCcJGS2jZxQJz8mza_H7IIarUhS'),
-    '_shipped_website_key' => '6LfMWN8pAAAAALCcJGS2jZxQJz8mza_H7IIarUhS',
+    'website_key' => env('RECAPTCHA_WEBSITE_KEY', '6Lfvz-MpAAAAANVPIOKwcaWvqmu0rFS1e4LVonqG'),
+    '_shipped_website_key' => '6Lfvz-MpAAAAANVPIOKwcaWvqmu0rFS1e4LVonqG',
 
     /*
      * Domain verification is enabled by default and compares the domain used when solving the captcha
