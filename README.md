@@ -5,6 +5,9 @@ O objetivo é fazer uma versão com mais funcionalidades do que já temos hoje n
 
 Durante o processo de criação, modificação e manutenção do projeto pude desenvolver os seguintes conhecimentos: Criação de Plugin, Redes, Infraestrutura, Cloud, Php, React JS, Docker, Docker Swarm, Criação de Cluster, Virtualização entre muitos outros...
 
+Você pode experimentar o que já foi feito, e o que ainda está por vir nesse [link](https://ptero.gabrielheiwa.dev), usuário e senha são demo.
+
+Abaixo o resumo da base em que me apoiei para fazer esse projeto.
 
 # Pterodactyl Panel
 
@@ -43,7 +46,7 @@ Alguns dos nossos principais jogos suportados incluem:
 
 Existem também outros jogos e serviços que podemos usar com o Pterodactyl a lista completa segue no [link](https://github.com/parkervcp/eggs)
 
-## License
+## License - Pterodactyl
 
 Pterodactyl® Copyright © 2015 - 2022 Dane Everitt and contributors.
 
